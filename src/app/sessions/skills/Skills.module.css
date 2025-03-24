@@ -1,0 +1,126 @@
+.skills {
+    background-color: #0c3866;
+    color: #FEFEFE;
+    padding: 50px 0;
+}
+
+.containerSkills {
+    background-color: #DBB2BF;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px;
+    border-radius: 10px;
+    flex-wrap: wrap;
+}
+
+.imageDiv {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 20px;
+}
+
+.computerImage {
+    width: 80%;
+    max-width: 400px;
+    height: auto;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.skillsCard {
+    flex: 2;
+    color: #FEFEFE;
+    display: flex;
+    flex-direction: column;
+    padding-left: 30px;
+    min-width: 300px;
+}
+
+.experienceDiv,
+.educationDiv,
+.skillsDiv {
+    width: 100%;
+    margin-bottom: 30px;
+}
+
+.experienceDiv,
+.educationDiv {
+    display: flex;
+    flex-direction: column;
+    padding: 15px;
+}
+
+.skillsDiv {
+    display: flex;
+    flex-direction: column;
+    padding: 15px;
+}
+
+.titleExperience,
+.titleEducation,
+.titleSkills {
+    font-size: 32px;
+    font-weight: bold;
+    margin-bottom: 15px;
+    text-transform: uppercase;
+}
+
+.textExperienceDiv,
+.textEducationDiv {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+.experienceItem,
+.educationItem {
+    width: 45%;
+}
+
+.year,
+.position,
+.degree {
+    font-size: 18px;
+    line-height: 1.6;
+}
+
+.skillsList {
+    list-style: none;
+    padding-left: 0;
+    font-size: 20px; 
+}
+
+.skillsList li {
+    margin-bottom: 10px;
+}
+
+@media (max-width: 768px) {
+    .containerSkills {
+        flex-direction: column;
+        align-items: center;
+        padding: 20px;
+    }
+
+    .imageDiv {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+
+    .skillsCard {
+        width: 100%;
+        padding-left: 0;
+    }
+
+    .textExperienceDiv,
+    .textEducationDiv {
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .skillsList {
+        font-size: 18px;
+    }
+}

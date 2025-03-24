@@ -1,0 +1,93 @@
+.about {
+  background-color: #0c3866;
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+}
+
+.containerAbout {
+  display: flex;
+  width: 100%;
+  max-width: 1200px;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.imageDiv {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.image {
+  width: 300px;
+  height: 300px;
+  border-radius: 50%;
+  overflow: hidden;
+}
+
+.image img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.textDiv {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+}
+
+.cardDiv {
+  background-color: #6F92AA;
+  padding: 20px;
+  border-radius: 8px;
+  width: 100%;
+  max-width: 600px;
+}
+
+.titleDiv {
+  background-color: #BC98A4;
+  color: #FEFEFE;
+  padding: 10px;
+  text-align: center;
+}
+
+.pDiv {
+  padding: 20px;
+}
+
+.textP {
+  color: #FEFEFE;
+  font-size: 1.1rem;
+  line-height: 1.6;
+  text-align: justify;
+}
+
+@media (max-width: 768px) {
+  .containerAbout {
+    flex-direction: column;
+  }
+  .imageDiv, .textDiv {
+    width: 100%;
+    margin-bottom: 20px;
+  }
+  .image {
+    width: 200px;
+    height: 200px;
+  }
+  .cardDiv {
+    max-width: 90%;
+  }
+  .titleDiv {
+    font-size: 1.5rem;
+  }
+  .textP {
+    font-size: 1rem;
+  }
+}
