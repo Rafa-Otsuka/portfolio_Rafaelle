@@ -1,11 +1,11 @@
 .about {
   background-color: #0c3866;
-  min-height: 100vh;
   display: flex;
   align-items: center;
   justify-content: center;
   padding: 20px;
 }
+
 
 .containerAbout {
   display: flex;

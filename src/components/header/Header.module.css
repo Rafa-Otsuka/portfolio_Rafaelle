@@ -4,5 +4,18 @@
 }
 
 .navbarComponent a {
-   color: #FEFEFE; 
+   color: #FEFEFE !important; 
+   text-decoration: none !important;
+}
+
+.navbarComponent a:hover {
+   color: #FEFEFE !important;
+}
+
+.navbarComponent a:active {
+   color: #FEFEFE !important;
+}
+
+.navbarComponent .navbar-nav .nav-item.active a {
+   color: #FEFEFE !important; 
 }

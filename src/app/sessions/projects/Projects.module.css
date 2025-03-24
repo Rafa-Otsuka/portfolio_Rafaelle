@@ -1,8 +1,73 @@
-.containerProjects{
-  background-color: #e2c418;
-  min-height: 100vh;
+.projects {
+  background-color: #5086C0;
+  height: 100vh;
   display: flex;
   align-items: center;
   justify-content: center;
+  overflow: hidden;
+}
+
+.containerProjects {
+  background-color: #DBB2BF;
+  width: 90%;
+  max-width: 1200px;
+  height: 90%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+.cardsDiv {
+  width: 100%;
+  max-width: 1000px;
   padding: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  border-radius: 8px;
+  gap: 20px;
+  height: auto;
+  max-height: 90%;
+  overflow-y: auto;
+}
+
+/* Estilização do card */
+.cardCustom {
+  border: none;
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  width: 18rem;
+  background-color: white;
+}
+
+/* Ajuste para imagens dentro dos cards */
+.cardCustom img {
+  width: 100%;
+  height: auto;
+  min-height: 150px;
+  max-height: 220px;
+  object-fit: contain; /* 📌 Agora a imagem sempre será mostrada inteira */
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+
+/* 📌 Responsividade para telas menores */
+@media (max-width: 768px) {
+  .cardsDiv {
+    flex-direction: column; /* Alinha os cards um abaixo do outro */
+    align-items: center;
+  }
+
+  .cardCustom {
+    width: 90%; /* Ajusta a largura para encaixar melhor */
+  }
+
+  .cardCustom img {
+    object-fit: contain; /* 📌 Mantém a proporção correta no mobile */
+    max-height: 180px;
+  }
 }

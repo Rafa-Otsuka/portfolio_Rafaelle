@@ -14,4 +14,4 @@ export function HomeSession() {
       <div className="firstWave"></div>
     </section>
   );
-}
+} 
