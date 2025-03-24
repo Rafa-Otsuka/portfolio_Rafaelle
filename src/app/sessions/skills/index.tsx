@@ -2,7 +2,7 @@ import styles from "./Skills.module.css";
 
 export function SkillsSession() {
   return (
-    <section className={`${styles.skills}`}>
+    <section id="skills" className={`${styles.skills}`}>
       <div className={`d-flex ${styles.containerSkills}`}>
         {/* Imagem ao lado esquerdo */}
         <div className={`d-flex justify-content-center ${styles.imageDiv}`}>

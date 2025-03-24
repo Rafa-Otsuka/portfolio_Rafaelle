@@ -50,24 +50,24 @@
   height: auto;
   min-height: 150px;
   max-height: 220px;
-  object-fit: contain; /* 📌 Agora a imagem sempre será mostrada inteira */
+  object-fit: contain; 
   border-top-left-radius: 10px;
   border-top-right-radius: 10px;
 }
 
-/* 📌 Responsividade para telas menores */
+/* 📌 Responsividade para celular */
 @media (max-width: 768px) {
   .cardsDiv {
-    flex-direction: column; /* Alinha os cards um abaixo do outro */
+    flex-direction: column; 
     align-items: center;
   }
 
   .cardCustom {
-    width: 90%; /* Ajusta a largura para encaixar melhor */
+    width: 90%;
   }
 
   .cardCustom img {
-    object-fit: contain; /* 📌 Mantém a proporção correta no mobile */
+    object-fit: contain; 
     max-height: 180px;
   }
 }

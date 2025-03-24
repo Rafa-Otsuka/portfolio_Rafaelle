@@ -2,7 +2,7 @@ import styles from "./Home.module.css";
 
 export function HomeSession() {
   return (
-    <section className={` ${styles.home}`}>
+    <section id="home"className={` ${styles.home}`}>
       <div className={`d-flex flex-column flex-lg-row justify-content-between align-items-center ${styles.homeDiv}`}>
         <div className={`d-flex justify-content-center align-items-center text-center ${styles.titleDiv}`}>
           <h1 className={`mb-5 ${styles.title}`}>RAFAELLE HEMMEL OTSUKA</h1>

@@ -2,7 +2,7 @@ import styles from "./About.module.css";
 
 export function AboutSession() {
   return (
-    <section className={`${styles.about}`}>
+    <section id="about" className={`${styles.about}`}>
       <div className={`d-flex ${styles.containerAbout}`}>
         <div className={`d-flex justify-content-center ${styles.imageDiv}`}>
           <div className={`mt-5 ${styles.image}`}>

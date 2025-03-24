@@ -2,7 +2,7 @@ import styles from "./Footer.module.css";
 
 export function Footer() {
     return (
-        <section className={styles.footer}>
+        <section id="footer" className={styles.footer}>
             <div className={`d-flex justify-content-center ${styles.containerFooter}`}>
                 <div className={styles.footerDiv}>
                     <div className={styles.footerItem}>

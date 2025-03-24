@@ -2,7 +2,7 @@ import styles from "./Projects.module.css";
 
 export function ProjectsSession() {
   return (
-    <section className={styles.projects}>
+    <section id="projects" className={styles.projects}>
       <div className={`d-flex justify-content-center align-items-center ${styles.containerProjects}`}>
         <div className={`${styles.cardsDiv} d-flex flex-wrap justify-content-around align-items-center`}>
           <div className={`card ${styles.cardCustom}`}>
